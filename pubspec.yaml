@@ -1,0 +1,75 @@
+name: kfc
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Gói UI
+  cupertino_icons: ^1.0.5
+  google_fonts: ^4.0.4
+  flutter_svg: ^2.0.5
+  cached_network_image: ^3.2.3
+  shimmer: ^3.0.0
+  google_sign_in: ^6.1.5
+
+  # Quản lý trạng thái
+  provider: ^6.0.5
+  
+  # Firebase
+  firebase_core: ^3.13.1
+  firebase_auth: ^5.5.4
+  cloud_firestore: ^5.6.8
+  firebase_storage: ^12.4.6
+  firebase_messaging: ^15.2.6
+  flutter_local_notifications: ^19.2.1
+  # Định vị
+  geolocator: ^9.0.2
+  geocoding: ^2.1.0
+  google_maps_flutter: ^2.3.0
+  
+  # Thanh toán
+  flutter_stripe: ^9.2.2
+  http: ^1.2.2
+  webview_flutter: ^4.8.0
+  crypto: ^3.0.5
+  webview_flutter_android: ^3.16.4
+  # Tiện ích
+  intl: ^0.19.0
+  shared_preferences: ^2.1.2
+  image_picker: ^0.8.9
+  url_launcher: ^6.1.11
+  fl_chart: ^1.0.0
+  timeago: ^3.7.1
+  # Định dạng
+  flutter_localizations:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  
+  # Tài nguyên hình ảnh
+  assets:
+    - assets/images/
+    - assets/fonts/
+    
+  # Cấu hình font chữ
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Roboto-Bold.ttf
+          weight: 700
+

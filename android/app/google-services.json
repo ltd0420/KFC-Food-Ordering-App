@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "977038315313",
+    "project_id": "kfc-app-ff40b",
+    "storage_bucket": "kfc-app-ff40b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:977038315313:android:ad82f8b40780b8a23e6a10",
+        "android_client_info": {
+          "package_name": "com.example.kfc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "977038315313-0e1lpbgmfi5ite766dse77a1sl0dkgsn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kfc",
+            "certificate_hash": "0c4a8e0aa04629a1a777e1e669fe1022731c6aa9"
+          }
+        },
+        {
+          "client_id": "977038315313-d1c7nsr7pk9r7c68p3t1t4tn4f343vod.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kfc",
+            "certificate_hash": "bf02f002e00c8c56a1ab8ae3dedb02f25bca70ca"
+          }
+        },
+        {
+          "client_id": "977038315313-h1k56n1qdvk7eu2gqg1lch2l0lcmlboj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_oU67LHziUz7Pzq41u2mm0QEL9zR633Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "977038315313-h1k56n1qdvk7eu2gqg1lch2l0lcmlboj.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "977038315313-egc9002dvkvg3h9inm1ut1isrspv7rk7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.kfc"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
